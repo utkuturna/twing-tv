@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "likeCount": 0,
+            "commentCount": 0,
+            "reward": 5,
+            "status": 1,
+            "commentStatus": 1,
+            "downloadUrl": "https://twinarcadiamedia-euwe.streaming.media.azure.net/49869577-02fc-4e25-8e0b-923da6e6d702/fd0b561ad6229f8fa5fb2964360be2cd_608x1080_AACAudio_2725.mp4",
+            "media": "https://twinarcadiamedia-euwe.streaming.media.azure.net/49869577-02fc-4e25-8e0b-923da6e6d702/fd0b561ad6229f8fa5fb2964360be2cd.ism/manifest(format=m3u8-aapl-v3,audio-only=false)",
+            "thumbnail": "https://twinarcadiamedia-euwe.streaming.media.azure.net/49869577-02fc-4e25-8e0b-923da6e6d702/Thumbnail000001.jpg",
+            "type": 1,
+            "user": {
+                "avatar": "https://twindbastorage.blob.core.windows.net/app-files/avatars/1.png",
+                "nickname": "AdaLovelace58214",
+                "id": "1f525f901a6e5e0034d81006"
+            },
+            "challenge": {
+                "title": "Kendi Usturlabını Yap",
+                "id": "5ed828a591fff9004c9862b8"
+            },
+            "id": "5f52667b497e8f40fdb87100"
+        },
+        {
+            "likeCount": 0,
+            "commentCount": 0,
+            "reward": 5,
+            "status": 1,
+            "commentStatus": 1,
+            "downloadUrl": "https://twinarcadiamedia-euwe.streaming.media.azure.net/1a278f49-61a6-4a6a-89d8-da497d3171f9/679faaef6b8ade78d5fe3f6edf05f819_608x1080_AACAudio_2092.mp4",
+            "media": "https://twinarcadiamedia-euwe.streaming.media.azure.net/1a278f49-61a6-4a6a-89d8-da497d3171f9/679faaef6b8ade78d5fe3f6edf05f819.ism/manifest(format=m3u8-aapl-v3,audio-only=false)",
+            "thumbnail": "https://twinarcadiamedia-euwe.streaming.media.azure.net/1a278f49-61a6-4a6a-89d8-da497d3171f9/Thumbnail000001.jpg",
+            "type": 1,
+            "user": {
+                "avatar": "https://twindbastorage.blob.core.windows.net/app-files/avatars/1.png",
+                "nickname": "AdaLovelace58214",
+                "id": "1f525f901a6e5e0034d81006"
+            },
+            "challenge": {
+                "title": "Ay Tutulmasını Gözlemle",
+                "id": "4ed82b3522f2d5004c071082"
+            },
+            "id": "5f52663e497e8f40fdb870ff"
+        },
+        {
+            "likeCount": 0,
+            "commentCount": 0,
+            "reward": 5,
+            "status": 1,
+            "commentStatus": 1,
+            "downloadUrl": "https://twinarcadiamedia-euwe.streaming.media.azure.net/41e23bee-380b-4f07-a97e-e0a99df72c28/5bbcf08c734af2da281acde176ce2a89_608x1080_AACAudio_2725.mp4",
+            "media": "https://twinarcadiamedia-euwe.streaming.media.azure.net/41e23bee-380b-4f07-a97e-e0a99df72c28/5bbcf08c734af2da281acde176ce2a89.ism/manifest(format=m3u8-aapl-v3,audio-only=false)",
+            "thumbnail": "https://twinarcadiamedia-euwe.streaming.media.azure.net/41e23bee-380b-4f07-a97e-e0a99df72c28/Thumbnail000001.jpg",
+            "type": 1,
+            "user": {
+                "avatar": "https://twindbastorage.blob.core.windows.net/app-files/avatars/1.png",
+                "nickname": "PiriReis71777",
+                "id": "1f4fcb5b2ff2af0035bc677e"
+            },
+            "challenge": {
+                "title": "Ay Tutulmasını Gözlemle",
+                "id": "4ed82b3522f2d5004c071082"
+            },
+            "id": "5f52657f497e8f40fdb870ec"
+        },
+        {
+            "likeCount": 0,
+            "commentCount": 0,
+            "reward": 10,
+            "status": 1,
+            "commentStatus": 1,
+            "downloadUrl": "https://twinarcadiamedia-euwe.streaming.media.azure.net/7e845291-e853-4c82-9cb8-60276640cd59/c6dea9202110268c418f6c0e18379dba_608x1080_AACAudio_1656.mp4",
+            "media": "https://twinarcadiamedia-euwe.streaming.media.azure.net/7e845291-e853-4c82-9cb8-60276640cd59/c6dea9202110268c418f6c0e18379dba.ism/manifest(format=m3u8-aapl-v3,audio-only=false)",
+            "thumbnail": "https://twinarcadiamedia-euwe.streaming.media.azure.net/7e845291-e853-4c82-9cb8-60276640cd59/Thumbnail000001.jpg",
+            "type": 1,
+            "user": {
+                "avatar": "https://twindbastorage.blob.core.windows.net/app-files/avatars/1.png",
+                "nickname": "PiriReis71777",
+                "id": "1f4fcb5b2ff2af0035bc677e"
+            },
+            "challenge": {
+                "title": "Yemek Yapma Oyunu Kodla",
+                "id": "5ed4f58591fff9004c9841ca"
+            },
+            "id": "5f52652d5e24f80034e8a3ad"
+        }
+    ]
+}

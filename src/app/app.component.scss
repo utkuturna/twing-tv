@@ -1,0 +1,202 @@
+$primary-color: #05968b;
+
+#main-screen {
+    width: 100vw;
+    height: 100vh;
+}
+
+#app-navigation {
+    color: #ffffff;
+    padding: 40px 20px 0;
+    text-align: center;
+    position: relative;
+    z-index:2;
+}
+
+#app-navigation > span.app-navigation-item {
+    opacity: 0.5;
+    letter-spacing: 0.02em;
+    padding: 0 10px;
+    transition: opacity .2s linear;
+}
+
+#app-navigation > span.app-navigation-item.active {
+    opacity: 1;
+}
+
+#loading-screen {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #3f3f3f;
+}
+
+.loader {
+    top: calc(50% - 60px);
+    transform: translateY(-50%);
+    margin: auto;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid $primary-color;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    position: relative;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.swiper-container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .swiper-slide {
+      position: relative;
+    background-position: center;
+    background-size: cover;
+  }
+  .swiper-slide video {
+    width: 100vw;
+    height: 100vh;
+  }
+  #video-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .video-sidebar {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    right: 0;
+    width: 70px;
+}
+.video-sidebar > span.video-action {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+.video-sidebar > span.video-action img {
+    width: 40px;
+    margin: auto;
+}
+.video-meta {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
+.video-progress-wrapper {
+    border-radius: 10px;
+    height: 4px;
+    width: 190px;
+    background: #9E9E9E;
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    overflow: hidden;
+}
+.video-progress-bar {
+    height: 4px;
+    display: block;
+    background: #ffffff;
+    width: 0;
+    transition: width .2s linear;
+}
+.video-user-info {
+    position: relative;
+    z-index: 3;
+    bottom: 30px;
+    left: 15px;
+}
+.video-user-image {
+    width: 50px;
+    position: relative;
+    float:left;
+    margin-right: 30px;
+}
+.video-user-image:after {
+    content: '';
+    display: block;
+    width: 50px;
+    background-image: url(../assets/characterBronzeFrame@3x.png);
+    background-repeat: no-repeat;
+    padding: 7px;
+    background-size: cover;
+    position: absolute;
+    height: 50px;
+    left: -7px;
+    top: 0;
+}
+.video-user-image img {
+    width: 100%;
+}
+.video-user-text {
+    float: left;
+}
+.video-user-text > span {
+    display: block;
+    color: #ffffff;
+    margin: 5px 0;
+}
+.video-user-challenge {
+    font-weight: bold;
+}
+.comment-screen {
+    position: fixed;
+    background-color:rgba(0, 0, 0, 0.7);
+    top: auto;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    overflow: hidden;
+    bottom: -100vh;
+    transition: all .2s linear;
+}
+.comment-screen.active {
+    bottom: 0;
+}
+.comments {
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    height: 80vh;
+    width: 100vw;
+}
+.comments-header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.comment-no {
+    text-align: center;
+}
+.comment-input {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.comment-input input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-top: 2px solid #ccc;
+    padding: 10px 20px;
+}

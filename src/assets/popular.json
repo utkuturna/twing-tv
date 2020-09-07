@@ -1,0 +1,67 @@
+{
+    "data": [
+        {
+            "likeCount": 0,
+            "commentCount": 0,
+            "reward": 10,
+            "status": 1,
+            "commentStatus": 1,
+            "downloadUrl": "https://twinarcadiamedia-euwe.streaming.media.azure.net/b6b7bbe4-0b37-43a1-92c5-4b97f51b1a07/204b10cc8353f4409b08bd63567ede6f_608x1080_AACAudio_1843.mp4",
+            "media": "https://twinarcadiamedia-euwe.streaming.media.azure.net/b6b7bbe4-0b37-43a1-92c5-4b97f51b1a07/204b10cc8353f4409b08bd63567ede6f.ism/manifest(format=m3u8-aapl-v3,audio-only=false)",
+            "thumbnail": "https://twinarcadiamedia-euwe.streaming.media.azure.net/b6b7bbe4-0b37-43a1-92c5-4b97f51b1a07/Thumbnail000001.jpg",
+            "type": 1,
+            "user": {
+                "avatar": "https://twindbastorage.blob.core.windows.net/app-files/avatars/1.png",
+                "nickname": "PiriReis71777",
+                "id": "1f4fcb5b2ff2af0035bc677e"
+            },
+            "challenge": {
+                "title": "Yemek Yapma Oyunu Kodla",
+                "id": "5ed4f58591fff9004c9841cc"
+            },
+            "id": "5f52649a5e24f80034e8a3aa"
+        },
+        {
+            "likeCount": 0,
+            "commentCount": 0,
+            "reward": 5,
+            "status": 1,
+            "commentStatus": 1,
+            "downloadUrl": "https://twinarcadiamedia-euwe.streaming.media.azure.net/1a278f49-61a6-4a6a-89d8-da497d3171f9/679faaef6b8ade78d5fe3f6edf05f819_608x1080_AACAudio_2092.mp4",
+            "media": "https://twinarcadiamedia-euwe.streaming.media.azure.net/1a278f49-61a6-4a6a-89d8-da497d3171f9/679faaef6b8ade78d5fe3f6edf05f819.ism/manifest(format=m3u8-aapl-v3,audio-only=false)",
+            "thumbnail": "https://twinarcadiamedia-euwe.streaming.media.azure.net/1a278f49-61a6-4a6a-89d8-da497d3171f9/Thumbnail000001.jpg",
+            "type": 1,
+            "user": {
+                "avatar": "https://twindbastorage.blob.core.windows.net/app-files/avatars/1.png",
+                "nickname": "AdaLovelace58214",
+                "id": "1f525f901a6e5e0034d81006"
+            },
+            "challenge": {
+                "title": "Ay Tutulmasını Gözlemle",
+                "id": "4ed82b3522f2d5004c071082"
+            },
+            "id": "5f52663e497e8f40fdb870ff"
+        },
+        {
+            "likeCount": 0,
+            "commentCount": 0,
+            "reward": 10,
+            "status": 1,
+            "commentStatus": 1,
+            "downloadUrl": "https://twinarcadiamedia-euwe.streaming.media.azure.net/ce48aec7-4ae8-49bd-867e-cb0e379d7081/ae8e93b3c322e95716488bc0612812d4_96x180_AACAudio_103.mp4",
+            "media": "https://twinarcadiamedia-euwe.streaming.media.azure.net/ce48aec7-4ae8-49bd-867e-cb0e379d7081/ae8e93b3c322e95716488bc0612812d4.ism/manifest(format=m3u8-aapl-v3,audio-only=false)",
+            "thumbnail": "https://twinarcadiamedia-euwe.streaming.media.azure.net/ce48aec7-4ae8-49bd-867e-cb0e379d7081/Thumbnail000001.jpg",
+            "type": 1,
+            "user": {
+                "avatar": "https://twindbastorage.blob.core.windows.net/app-files/avatars/1.png",
+                "nickname": "PiriReis71777",
+                "id": "1f4fcb5b2ff2af0035bc677e"
+            },
+            "challenge": {
+                "title": "Yemek Yapma Oyunu Kodla",
+                "id": "5ed4f58591fff9004c9841cc"
+            },
+            "id": "5f5263c41a6e5e0034d81000"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+<div id="main-screen" *ngIf="!loading">
+  <div id="app-navigation">
+    <span class="app-navigation-item" [class.active]="activeScreen === 'latest'" (click)="activeScreen = 'latest';getVideos()">Latest</span> | <span  class="app-navigation-item" [class.active]="activeScreen === 'popular'" (click)="activeScreen = 'popular';getVideos()">Popular</span>
+  </div>
+  <div id="video-screen" class="video-screen-test">
+    <div  class="swiper-container" [swiper]="config" [(index)]="index" (init)="sliderInit($event)" (indexChange)="slideChange($event)" #slider>
+      <div class="swiper-wrapper">
+        <div *ngFor="let video of videoData; let i = index" class="swiper-slide" [style.background-image]="'url(' + video.thumbnail + ')'" (swipeup)="openComments($event)">
+          <video class="slide-video" [id]="'video'+i">
+            <source [src]="video.downloadUrl" type="video/mp4">
+          </video>
+          <div class="video-meta">
+            <span class="video-progress-wrapper"><span class="video-progress-bar" [id]="'videoprogress'+i"></span></span>
+            <div class="video-user-info">
+              <div class="video-user-image">
+                <img [src]="video?.user?.avatar">
+              </div>
+              <div class="video-user-text">
+                <span class="video-user-name">{{video?.user?.nickname}}</span>
+                <span class="video-user-challenge">{{video?.challenge?.title}}</span>
+              </div>
+            </div>
+          </div>
+          <div class="video-sidebar">
+            <span class="video-action"  (click)="openComments(video)">
+              <img src="../assets/commentIcon@3x.png">
+              <p>{{video?.commentCount}}</p>
+            </span>
+            <span class="video-action" (click)="likeAVideo(video)">
+              <img *ngIf="!video.liked" src="../assets/likeIcon@3x.png">
+              <img *ngIf="video.liked" src="../assets/likeIcon-a@3x.png">
+              <p>{{video?.likeCount}}</p>
+            </span>
+          </div>
+          <div class="comment-screen" [class.active]="commentsActive" (swipedown)="closeComments($event)">
+              <div class="comments">
+                <div class="comments-header">{{video?.commentCount}} Comment(s)</div>
+                <div class="comment-no" *ngIf="video?.commentCount === 0">Be first to comment</div>
+                <div class="comment-input">
+                  <input type="text" placeholder="Add comment here">
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+<div id="loading-screen" *ngIf="loading">
+  <div class="loader"></div>
+</div>
